@@ -1,0 +1,94 @@
+/* css reset */
+* {
+	margin: 0px;
+	padding: 0px;
+}
+/*背景风格*/
+body {
+	background-color: #48608E;
+}
+/* 主面板 */
+#container {
+	margin: 150px auto;
+	width: 55%;
+	text-align: center;
+	/*border:1px solid #EEE;*/
+}
+/*标题*/
+#banner {
+	margin: 0 auto;
+	/*width:500px;*/
+	/*height: 50px;*/
+	background-color: #27AE61;
+	font-size: 15px;
+	text-align: left;
+	font-weight: bold;
+	padding: 2px 5px /*line-height:30px;*/
+}
+/*查询主面板*/
+#panel {
+	background-color: #58D68D;
+	/*height: 200px;*/
+}
+/*布局*/
+#panel table {
+	margin: 0px 0px;
+	padding: 0px 0px;
+	/*padding-top:38px;*/
+}
+/*结果表头*/
+#panel table thead {
+	background-color: #40C070;
+}
+/*结果单元格*/
+#panel table td {
+	text-align: left;
+	width: 180px;
+	padding-left: 15px;
+}
+/*结果单元格*/
+#panel table tbody td {
+	padding: 10px 15px;
+}
+/*结果行鼠标划过变色*/
+#panel table tbody tr:hover {
+	color: white;
+	background-color: #27AE61;
+}
+/*按钮样式*/
+.button {
+	border-width: 0px;
+	/*background-color:transparent;*/
+	background-color: #27AE61;
+	padding: 8px 10px;
+	cursor: pointer;
+	border-radius: 5px;
+	font-size: 15px;
+}
+/*按钮鼠标划过反馈*/
+.button:hover {
+	color: white;
+}
+/*输入框效果*/
+.input {
+	border-width: 0px;
+	border-bottom: 1px solid black;
+	background-color: transparent;
+	width: 100%;
+}
+
+.input:focus {
+	border-bottom-color: red;
+}
+/*标签手型效果*/
+label {
+	cursor: pointer;
+}
+
+.odd {
+	background-color: #68E69D;
+}
+
+.even {
+	
+}
